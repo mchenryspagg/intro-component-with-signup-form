@@ -110,7 +110,7 @@ h1{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-#form .entry {
+ .entry {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -122,11 +122,15 @@ h1{
     padding: 12px;
     border-radius: 5px;
 }
-.entry:focus {
+.entry input:focus {
     outline: 0;
 }
 .entry input{
     border: none;
+    display: block;
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
 }
 .entry .success input {
     border-color:hsl(240, 38%, 97%);
